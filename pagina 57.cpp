@@ -1,0 +1,20 @@
+#include <iostream>
+#include <limits>
+
+int main(){
+	
+	while(true){
+		std::cout<< "ingrese su edad: ";
+		std::cin >> age;
+		
+		if(std::cin.fail()){
+			std::cin.clear();
+			std::cin.ignore(std::numeri_limits<std::streamsize>::max(), '\n');
+			continue;
+		}
+		if(age <=0;)
+		continue;
+		break;
+	}
+	std::cout<< "ingresaste:" << age << '\n';
+}
